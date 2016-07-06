@@ -180,7 +180,7 @@ section h1 a:hover {
   height: 145px;
 }
 .latest-news ul li:nth-child(2) .story {
-  background-image: url("images/VLC-3.jpg");
+  background-image: url("images/vlc-33.jpg");
 }
 .latest-news ul li:nth-child(3) .story {
   background-image: url("images/screen-shot.png");
@@ -233,7 +233,7 @@ section h1 a:hover {
   margin-right: 26px;
 }
 .popular-content {
-  background-image: url("images/vlc-3.jpg");
+  background-image: url("images/vlc-33.jpg");
   background-size: cover;
   background-position: center center;
   height: 275px;
@@ -344,7 +344,7 @@ section h1 a:hover {
   background-image: url("images/spoiler.jpg");
 }
 .section-popular:nth-child(4) ul li .popular-content {
-  background-image: url("images/snapchat.jpg");
+  background-image: url("images/snapchat1.jpg");
 }
 .section-popular:nth-child(4) ul li:nth-child(2) .popular-content {
   background-image: url("images/shutterstock.jpg");
