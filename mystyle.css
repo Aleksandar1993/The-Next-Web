@@ -222,6 +222,7 @@ section h1 a:hover {
 }
 .section-popular ul li {
   width: 31%;
+  height: 600px;
   float: left;
   display: inline-block;
   margin-right: 26px;
@@ -266,6 +267,24 @@ section h1 a:hover {
   background-image: url("images/facepalm.jpg");
   border: 1px solid silver;
 }
+.section-popular ul li:nth-child(4) .popular-content {
+  background-image: url("images/hero.jpg");
+}
+.section-popular ul li:nth-child(5) .popular-content {
+  background-image: url("images/andela.jpg");
+}
+.section-popular ul li:nth-child(6) .popular-content {
+  background-image: url("images/shutterstock.jpg");
+}
+.section-popular ul li:nth-child(7) .popular-content {
+  background-image: url("images/snapchat.jpg");
+}
+.section-popular ul li:nth-child(8) .popular-content {
+  background-image: url("images/shutterstock.jpg");
+}
+.section-popular ul li:nth-child(9) .popular-content {
+  background-image: url("images/seinfeld.jpg");
+}
 .section-latest {
   height: 100px;
   background-color: #fff4f2;
@@ -284,7 +303,25 @@ section h1 a:hover {
   background-image: url("images/suitcase.jpg");
 }
 .section-popular ul li:nth-child(3) .latest-image {
-  background-image: url("images/photo-14.jpeg");
+  background-image: url("images/photo-14.jpg");
+}
+.section-popular ul li:nth-child(4) .latest-image {
+  background-image: url("images/11-5.jpg");
+}
+.section-popular ul li:nth-child(5) .latest-image {
+  background-image: url("images/linkedin.jpg");
+}
+.section-popular ul li:nth-child(6) .latest-image {
+  background-image: url("images/spoiler.jpg");
+}
+.section-popular ul li:nth-child(7) .latest-image {
+  background-image: url("images/yt-director.jpg");
+}
+.section-popular ul li:nth-child(8) .latest-image {
+  background-image: url("images/apple-shangai.jpg");
+}
+.section-popular ul li:nth-child(9) .latest-image {
+  background-image: url("images/mark.jpg");
 }
 .latest-info {
   padding-left: 10px;
@@ -594,6 +631,17 @@ footer .wrapper {
   section h1 a {
     font-size: 25px;
   }
+  /*--------- SECTION Section Popular -----------*/
+  .section-popular {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .section-popular ul li {
+    width: 46%;
+    margin: 2%;
+  }
+
+
 }
 
 
