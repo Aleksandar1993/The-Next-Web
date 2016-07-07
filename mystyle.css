@@ -543,16 +543,41 @@ footer .wrapper {
   .second-part .right-side {
     margin-right: 20px;
   }
+  /*--------- SECTION cover-container -----------*/
   .cover-story .cover-header h1 {
     font-size: 40px;
   }
   .cover-story p {
     padding-top: 5px;
   }
+  .favorite-apple, .track-app, .apple-headphone {
+    width: 32%;
+    height: 120px;
+    margin: 0 2% 0 0;
+    float: left;
+  }
+  .cover-container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .cover-story {
+    width: 100%;
+    float: none;
+    height: 179px;
+    margin-bottom: 10px;
+  }
+  .article-list {
+    width: 100%;
+  }
+  .article-list h2 {
+    font-size: 20px;
+  }
+  .apple-headphone {
+    margin-right: 0;
+  }
 
 
 
-  
 
 }
 
