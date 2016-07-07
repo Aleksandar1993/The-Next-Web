@@ -160,6 +160,7 @@ section h1 a:hover {
 }
 .latest-news ul li {
   width: 23%;
+  height: 270px;
   display: inline-block;
   float: left;
   margin-right: 20px;
@@ -414,6 +415,18 @@ section h1 a:hover {
   background-image: url("images/suitcase.jpg");
   height: 200px;
 }
+.latest-deals .latest-news ul .col-4:nth-child(5) .story {
+  background-image: url("images/programing.jpg");
+}
+.latest-deals .latest-news ul .col-4:nth-child(6) .story {
+  background-image: url("images/mobile.jpg");
+}
+.latest-deals .latest-news ul .col-4:nth-child(7) .story {
+  background-image: url("images/share.jpg");
+}
+.latest-deals .latest-news ul .col-4:nth-child(8) .story {
+  background-image: url("images/headphone.jpg");
+}
 .latest-deals .latest-news ul li:nth-child(2) .story {
   background-image: url("images/11-5.jpg");
 }
@@ -611,10 +624,9 @@ footer .wrapper {
   }
   .latest-news ul li {
     width: 30%;
-    height: 240px;
     margin-right: 1%;
     padding: 1%;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   section h1 {
     margin-top: 20px;
@@ -635,6 +647,9 @@ footer .wrapper {
     margin-right: 2%;
   }
   /*--------- SECTION Latest Deals -----------*/
+  .latest-deals {
+    margin-top: 40px;
+  }
   .latest-header p {
     padding-right: 27px;
   }
