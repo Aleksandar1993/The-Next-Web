@@ -32,22 +32,16 @@ nav div ul li a {
 .first-part ul li a:hover {
   color: #FFF;
 }
-.left-side li:first-child a {
-  color: #FFF;
-}
 .second-part ul {
   margin-bottom: 10px;
-}
-.second-part ul {
   margin-top: 20px;
-
 }
 .second-part ul li {
   display: inline;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-right: 20px;
+  margin-left: 20px;
 }
 section {
   position: relative;
@@ -527,8 +521,61 @@ footer .wrapper {
 }
 /* -----------  RESPONSIVE   --------- */
 
-@media only screen and (min-width: 1024px) {
-  nav .first-part {
-    width: 100%;
+@media screen and (max-width: 479px) {
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*--------- NAVIGATION -----------*/
+  .second-part .left-side li:nth-child(7){
+    display: none;
   }
+  .second-part .left-side li:nth-child(8){
+    display: none;
+  }
+  .second-part .left-side li:nth-child(9){
+    display: none;
+  }
+  .second-part .right-side {
+    margin-right: 20px;
+  }
+  .cover-story .cover-header h1 {
+    font-size: 40px;
+  }
+  .cover-story p {
+    padding-top: 5px;
+  }
+
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+
+@media only screen and (min-width: 768px) amd (max-width: 1024px) {
+
 }
