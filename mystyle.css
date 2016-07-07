@@ -270,7 +270,7 @@ section h1 a:hover {
   background-image: url("images/hero.jpg");
 }
 .section-popular ul li:nth-child(5) .popular-content {
-  background-image: url("images/andela.jpg");
+  background-image: url("images/andelaa.jpg");
 }
 .section-popular ul li:nth-child(6) .popular-content {
   background-image: url("images/shutterstock.jpg");
@@ -653,28 +653,4 @@ footer .wrapper {
   .latest-header p {
     padding-right: 27px;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-
-}
-
-@media only screen and (max-width: 1024px) {
-
-}
-
-
-@media only screen and (min-width: 768px) amd (max-width: 1024px) {
-
 }
