@@ -706,6 +706,9 @@ footer .wrapper {
     font-size: 18px;
     margin-bottom: 0px;
   }
+  #wrapper {
+    margin-bottom: 20px;
+  }
   #wrapper h1 a {
     font-size: 25px;
   }
@@ -731,11 +734,14 @@ footer .wrapper {
   .latest-news ul li {
     margin-bottom: 0px;
   }
+  .latest-news ul li p a {
+    font-size: 13px;
+  }
   .latest-deals .latest-news ul .col-4 .story {
     height: 72px;
     width: 72px;
   }
-  .latest-news ul li p:nth-child(2) {
+  .latest-deals .latest-news ul li p:nth-child(2) a {
     line-height: 20px;
   }
   .latest-header h1 {
